@@ -7,7 +7,8 @@ def std_weight(gender, height):
     else :
         standard_weight = heightH * heightH * 21
 
-    print("키 " + str(height)+" " + gender +"의 표준 체중은 "+f"{standard_weight:.2f}"+"kg 입니다")
+    standard_weight = round(standard_weight, 2)
+    print("키 " + str(height)+" " + gender +"의 표준 체중은 "+str(standard_weight)+"kg 입니다")
 
 
 std_weight("남자", 175)

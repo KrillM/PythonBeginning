@@ -2,7 +2,7 @@ from random import *
 
 # N04 ~ 08 : List, Dictionary, Tuple, Set, Switch
 
-classRoom = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+classRoom = list(range(1,21))
 chicken = randint(1,len(classRoom))
 #print(chicken)
 
